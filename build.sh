@@ -6,8 +6,8 @@ FIRMWARE_DIR="${SCRIPT_DIR}/firmware"
 WEST_CACHE="${SCRIPT_DIR}/.west-cache"
 IMAGE="docker.io/zmkfirmware/zmk-dev-arm:stable"
 
-# Use home dir for podman temp files to avoid /var/tmp space issues
-export TMPDIR="${HOME}/.local/share/containers/tmp"
+# Use home dir for docker temp files to avoid /var/tmp space issues
+export TMPDIR="${HOME}/tmp/zmk-build-tmp"
 mkdir -p "${FIRMWARE_DIR}" "${WEST_CACHE}" "${TMPDIR}"
 
 BUILD_START=$SECONDS
@@ -16,11 +16,10 @@ echo "=== ZMK Firmware Build: Ferris Sweep ==="
 echo "Image: ${IMAGE}"
 echo ""
 
-podman run --rm \
+docker run --rm \
     -v "${SCRIPT_DIR}/config:/config:ro,Z" \
     -v "${FIRMWARE_DIR}:/firmware:Z" \
     -v "${WEST_CACHE}:/cache:Z" \
-    --userns=keep-id \
     --network=host \
     "${IMAGE}" \
     /bin/bash -c '
