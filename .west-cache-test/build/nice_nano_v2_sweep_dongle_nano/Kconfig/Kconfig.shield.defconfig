@@ -1,2 +1,0 @@
-osource "/cache/zmk/app/boards/shields/*/Kconfig.defconfig"
-osource "/cache/config/boards/shields/*/Kconfig.defconfig"
