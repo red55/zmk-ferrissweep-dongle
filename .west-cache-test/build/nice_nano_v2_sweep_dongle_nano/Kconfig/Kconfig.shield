@@ -1,0 +1,2 @@
+osource "/cache/zmk/app/boards/shields/*/Kconfig.shield"
+osource "/cache/config/boards/shields/*/Kconfig.shield"
