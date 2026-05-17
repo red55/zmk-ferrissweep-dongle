@@ -450,11 +450,11 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp RSHFT>,
+                <&kp LEFT_CONTROL>,
                 <&macro_tap>,
-                <&kp LSHFT>,
+                <&kp NUMBER_0>,
                 <&macro_release>,
-                <&kp RSHIFT>;
+                <&kp LEFT_CONTROL>;
 
             label = "M_EN";
             wait-ms = <0>;
@@ -466,11 +466,11 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LSHFT>,
+                <&kp LEFT_CONTROL>,
                 <&macro_tap>,
-                <&kp RSHFT>,
+                <&kp NUMBER_1>,
                 <&macro_release>,
-                <&kp LSHFT>;
+                <&kp LEFT_CONTROL>;
 
             label = "M_RU";
             wait-ms = <0>;
