@@ -1334,10 +1334,10 @@
             //                    | GUI | LWR | ALT/ENT |   | HYPER/SPC | BKSP  | RSE |
 
             bindings = <
-  &hml LGUI Q  &hlt 6 W     &hlt 8 E      &hlt 6 R      &kp T     &kp Y    &kp U         &kp I         &kp O        &kp P
-  &hlt 10 A    &hml LALT S  &hml LCTRL D  &hml LSHFT F  &kp G     &lt 8 H  &hmr RSHFT J  &hmr RCTRL K  &hmr RALT L  &hmr RGUI SEMI
-  &kp Z        &kp X        &kp C         &kp V         &kp B     &kp N    &kp M         &kp COMMA     &kp DOT      &kp FSLH
-                                          &lt 3 SPACE   &mo 11    &mo 11   &m_to_ru
+  &kp Q            &hlt 6 W     &hlt 8 E      &hlt 6 R      &kp T     &kp Y    &kp U         &kp I         &kp O        &kp P
+  &hml LEFT_WIN A  &hml LALT S  &hml LCTRL D  &hml LSHFT F  &kp G     &lt 8 H  &hmr RSHFT J  &hmr RCTRL K  &hmr RALT L  &hmr RGUI SEMI
+  &hlt 10 Z        &kp X        &kp C         &kp V         &kp B     &kp N    &kp M         &kp COMMA     &kp DOT      &kp FSLH
+                                              &lt 3 SPACE   &mo 11    &mo 11   &m_to_ru
             >;
 
             display-name = "EN";
@@ -1442,10 +1442,10 @@
 
         fn {
             bindings = <
-  &none  &none     &none      &none      &none       &none       &kp F9  &kp F10  &kp F11  &kp F12
-  &none  &sk LALT  &sk LCTRL  &sk LSHFT  &none       &none       &kp F5  &kp F6   &kp F7   &kp F8
-  &none  &none     &none      &none      &none       &none       &kp F1  &kp F2   &kp F3   &kp F4
-                              &none      &kp LGUI    &none       &none
+  &none  &none     &none      &none      &none       &none  &kp F9  &kp F10  &kp F11  &kp F12
+  &none  &sk LALT  &sk LCTRL  &sk LSHFT  &none       &none  &kp F5  &kp F6   &kp F7   &kp F8
+  &none  &none     &none      &none      &none       &none  &kp F1  &kp F2   &kp F3   &kp F4
+                              &none      &kp LGUI    &none  &none
             >;
 
             display-name = "FN";
