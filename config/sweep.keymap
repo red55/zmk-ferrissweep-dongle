@@ -1345,10 +1345,10 @@
 
         ru {
             bindings = <
-  &hml LGUI RU_CYRILLIC_SHORT_I  &hlt 7 RU_CYRILLIC_TSE      &hlt 9 RU_CYRILLIC_U       &hlt 7 RU_CYRILLIC_KA     &kp RU_CYRILLIC_IE    &kp RU_CYRILLIC_EN    &kp RU_CYRILLIC_GHE        &kp RU_CYRILLIC_SHA        &kp RU_CYRILLIC_SHCHA     &kp RU_CYRILLIC_ZE
-  &hlt 10 RU_CYRILLIC_EF         &hml LALT RU_CYRILLIC_YERU  &hml LCTRL RU_CYRILLIC_VE  &hml LSHFT RU_CYRILLIC_A  &kp RU_CYRILLIC_PE    &lt 9 RU_CYRILLIC_ER  &hmr RSHFT RU_CYRILLIC_O   &hmr RCTRL RU_CYRILLIC_EL  &hmr RALT RU_CYRILLIC_DE  &hmr RGUI RU_CYRILLIC_ZHE
-  &kp RU_CYRILLIC_YA             &kp RU_CYRILLIC_CHE         &kp RU_CYRILLIC_ES         &kp RU_CYRILLIC_EM        &kp RU_CYRILLIC_I     &kp RU_CYRILLIC_TE    &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE         &kp RU_CYRILLIC_YU        &kp RU_CYRILLIC_HA
-                                                                                        &lt 3 SPACE               &mo 11                &mo 11                &m_to_en
+  &kp RU_CYRILLIC_SHORT_I       &hlt 7 RU_CYRILLIC_TSE      &hlt 9 RU_CYRILLIC_U       &hlt 7 RU_CYRILLIC_KA     &kp RU_CYRILLIC_IE    &kp RU_CYRILLIC_EN    &kp RU_CYRILLIC_GHE        &kp RU_CYRILLIC_SHA        &kp RU_CYRILLIC_SHCHA     &kp RU_CYRILLIC_ZE
+  &hml LEFT_WIN RU_CYRILLIC_EF  &hml LALT RU_CYRILLIC_YERU  &hml LCTRL RU_CYRILLIC_VE  &hml LSHFT RU_CYRILLIC_A  &kp RU_CYRILLIC_PE    &lt 9 RU_CYRILLIC_ER  &hmr RSHFT RU_CYRILLIC_O   &hmr RCTRL RU_CYRILLIC_EL  &hmr RALT RU_CYRILLIC_DE  &hmr RGUI RU_CYRILLIC_ZHE
+  &hlt 10 RU_CYRILLIC_YA        &kp RU_CYRILLIC_CHE         &kp RU_CYRILLIC_ES         &kp RU_CYRILLIC_EM        &kp RU_CYRILLIC_I     &kp RU_CYRILLIC_TE    &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE         &kp RU_CYRILLIC_YU        &kp RU_CYRILLIC_HA
+                                                                                       &lt 3 SPACE               &mo 11                &mo 11                &m_to_en
             >;
 
             display-name = "RU";
