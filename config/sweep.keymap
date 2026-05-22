@@ -1411,10 +1411,10 @@
         sym_ru {
             display-name = "SYM RU";
             bindings = <
-  &kp LGUI  &kp LALT  &kp LCTRL  &none      &none    &none  &kp RU_LEFT_PARENTHESIS    &kp RU_RIGHT_PARENTHESIS  &m_kp_en LEFT_BRACKET  &m_kp_en RIGHT_BRACKET
-  &none     &none     &none      &none      &none    &none  &kp RU_CYRILLIC_HARD_SIGN  &kp RU_CYRILLIC_IO        &kp RU_CYRILLIC_E      &none
-  &none     &none     &none      &none      &none    &none  &m_kp_en LESS_THAN         &m_kp_en GREATER_THAN     &m_kp_en HASH          &m_kp_en SLASH
-                                 &kp LSHFT  &none    &none  &none
+  &kp LGUI  &kp LALT  &kp LCTRL  &none      &none    &none    &kp RU_LEFT_PARENTHESIS    &kp RU_RIGHT_PARENTHESIS  &m_kp_en LEFT_BRACKET  &m_kp_en RIGHT_BRACKET
+  &none     &none     &none      &none      &none    &kp DOT  &kp RU_CYRILLIC_HARD_SIGN  &kp RU_CYRILLIC_IO        &kp RU_CYRILLIC_E      &none
+  &none     &none     &none      &none      &none    &none    &m_kp_en LESS_THAN         &m_kp_en GREATER_THAN     &m_kp_en HASH          &m_kp_en SLASH
+                                 &kp LSHFT  &none    &none    &none
             >;
         };
 
